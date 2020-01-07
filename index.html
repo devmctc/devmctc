@@ -1,17 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-       <title>Cammie Love</title>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <nav><p>2</p>
+
+
+    <!DOCTYPE html>
+    <html>
+    <html lang="en">
+        <head>
+           <title>Hello, I am Cammie Love</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
+            <title>Cammie Love</title>
+           
+            <link rel="author" href="humans.txt" />
+            
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           
+        </head>
+        <header>
+          
+          <span class="logo">My WebSite</span>
+          <a id="toggleMenu">Menu</a>
+          <nav>
             <ul>
               <li><a href="index.html">Home</a></li>
               <li><a href="resume.html">Resume</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
+        </header>
+        <body>
+        <main>
+
+      <h1>
+       <p>Hello, I am Cammie Love</p>
+       <p><img src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" alt="Cammie Love">
+        <p>
+          <img 
+              style="border-radius: 50%; float: right; margin-left: 1em;"
+              src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" 
+              alt="Cammie Love">
+        
+
+
+       <p>I came to the midwest on the belief that Chicago can give me the American Dream. I moved to Chicago in 2001. As a newbie to Chicago, I memorized all of the major streets so that I would not get lost.</p>
+     
+       <script>
+
+        var toggleMenu = document.getElementById('toggleMenu');
+        var nav = document.querySelector('nav');
+        toggleMenu.addEventListener(
+          'click',
+          function(){
+            if(nav.style.display=='block'){
+              nav.style.display='none';
+            }else{
+              nav.style.display='block';
+            }
+          }
+        );
+      </script>
+
+        
+        </main>  
     </body>
 </html>
