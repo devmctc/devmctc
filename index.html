@@ -1,65 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      
+       <title>Cammie Love</title>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   </head>
+    <body>
+      <h1>Hello, I am Cammie Love</h>
+      <nav
+      >
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+            <p>
+            <img 
+                style="border-radius: 50%; float: right; margin-left: 1em;"
+                src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" 
+                alt="Cammie Love">
+      
+            <h4>After my short stint in hospitality, I've decided to transition into web 
+            and mobile development.</h4></p>
+      
 
+            <!-- Plain text input -->
+<div>
+  <em>Sample plain text entry</em>
+  <label for="name">Name</label>
+  <input id="name" name="name" type="text">
+</div>
+<!-- Datepicker -->
+<label for="date">Date</label>
+<input id="date" name="date" type="date">
 
-    <!DOCTYPE html>
-    <html>
-    <html lang="en">
-        <head>
-           <title>Hello, I am Cammie Love</title>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-            <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
-            <title>Cammie Love</title>
-           
-            <link rel="author" href="humans.txt" />
+<!-- Textarea -->
+<label for="description">Description</label>
+<textarea id="description" name="description"></textarea>
+
+<!-- Picklist-->
+<label for="pickOne">Choose an option</label>
+<select id="pickOne" name="pickone">
+  <option>Please Choose an Option</option>
+  <option value="option1">Option 1</option>
+  <option value="option2" selected>Option 2</option>
+  <option value="option3">Option 3</option>
+</select>
+
+<!-- Radio Options -->
+<fieldset>
+  <legend>Choose yes or No</legend>
+
+  <label for="r1">Yes</label>
+  <input id="r1" name="yn" value="y" type="radio">
+
+  <label for="r2">No</label>
+  <input id="r2
+  " name="yn" value="n" type="radio">
+</fieldset>
+
+<!-- Checkbox Options -->
+<fieldset>
+  <legend>Choose all that apply</legend>
+  <label for="c1">Option 1</label>
+  <input id="c1" name="all" value="0" type="checkbox">
+
+  <label for="c2">Option 2</label>
+  <input id="c2" name="all" value="1" type="checkbox">
+</fieldset>
+
+<!-- Form Buttons -->
+<input type="submit" name="submit" value="Submit">
+<input type="reset" name="reset" value="Reset">
+
             
-     
-           
-        </head>
-        <header>
-          
-          <span class="logo">My WebSite</span>
-          <a id="toggleMenu">Menu</a>
-          <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="resume.html">Resume</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-        </header>
-        <body>
-        <main>
-
-      <h1>
-       <p>Hello, I am Cammie Love</p>
-       <p><img src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" alt="Cammie Love">
-        <p>
-          <img 
-              style="border-radius: 50%; float: right; margin-left: 1em;"
-              src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" 
-              alt="Cammie Love">
-        
 
 
-       <p>I came to the midwest on the belief that Chicago can give me the American Dream. I moved to Chicago in 2001. As a newbie to Chicago, I memorized all of the major streets so that I would not get lost.</p>
-     
-       <script>
 
-        var toggleMenu = document.getElementById('toggleMenu');
-        var nav = document.querySelector('nav');
-        toggleMenu.addEventListener(
-          'click',
-          function(){
-            if(nav.style.display=='block'){
-              nav.style.display='none';
-            }else{
-              nav.style.display='block';
-            }
-          }
-        );
-      </script>
-
-        
-        </main>  
+      
     </body>
 </html>

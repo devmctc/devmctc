@@ -28,21 +28,21 @@ font-family: 'Open Sans', sans-serif;
 
   nav {
       display: none;
-      background: #000;
+      background: rgb(36, 1, 65);
   }
 
   nav ul li a,
   nav ul li a:link,
   nav ul li a:visited{
     display: block;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid rgb(163, 153, 4);
   }
   
 }
 
 header {
   height: 50px;
-  background: #000;
+  background: rgb(57, 1, 88);
   color: #fff;
   padding: 0 .5rem 0 1rem;
 }
@@ -109,15 +109,16 @@ main {
   nav {
     position: absolute;
     display: none;
-    background: #000;
+    background: rgb(57, 0, 95);
     top: 50px;
     left: 0;
     right: 0;
   }
-
+s
   nav ul li a,
   nav ul li a:link,
   nav ul li a:visited{
     display: block;
     border-bottom: 1px solid #777;
   }
+}

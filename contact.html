@@ -1,73 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-       <title>Cammie Love</title>
-       <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
+      <title>Cammie Love</title>
        <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-       <meta name="description" content="The best thing about hello world is the greeting">
-<meta name="keywords" content="Cammie Love, resume, contact, about me, web development">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
+   </head>
     <body>
-      <header>
-          
-        <span class="logo">My WebSite</span>
-        <a id="toggleMenu">Menu</a>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-
-
+    <header>
+      <h1>Hello, I am Cammie Love</h>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
           <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-
-        <form action="https://formspree.io/nacaki@mail.com" method="POST">
-
-        </form>
-      
-
-        <div>
-          <label for="name">Name</label>
-          <input id="name" type="text" name="name">
-        </div>
-        <div>
-          <label for="email">Email</label>
-          <input id="email" type="text" name="_replyto">  
-        </div>
-        <div>
-          <label for="message">Message</label>
-          <textarea id="message" name="message"></textarea>
-        </div>
-        <div>
-          <input type="hidden" name="_subject" value="New submission!">
-        </div>
-
-<div>
-  <input type="submit" value="Send">
-</div>
+        </ul>
+    </nav>
+  </header>
+  
+  <form action="https://formspree.io/love.cammie@mail.com" method="POST">
+  <div>
+    <label for="name">Name</label>
+    <input id="name" type="text" name="name">
+  </div>
+  <div>
+    <label for="email">Email</label>
+    <input id="email" type="text" name="_replyto">  
+  </div>
+  <div>
+    <label for="message">Message</label>
+    <textarea id="message" name="message"></textarea>
+  </div>
+  <div>
+    <input type="submit" value="Send"></div>
+    <input type="hidden" name="_next" value="//devmctc.github.io/thanks.html">
+  </form>
 
 
-<script>
+   
 
-  var toggleMenu = document.getElementById('toggleMenu');
-  var nav = document.querySelector('nav');
-  toggleMenu.addEventListener(
-    'click',
-    function(){
-      if(nav.style.display=='block'){
-        nav.style.display='none';
-      }else{
-        nav.style.display='block';
-      }
-    }
-  );
-</script>
-</main>
+
     </body>
 </html>
