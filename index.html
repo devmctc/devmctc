@@ -1,86 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      
-       <title>Cammie Love</title>
-       <meta charset="UTF-8">
-       <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-   </head>
-    <body>
-      <h1>Hello, I am Cammie Love</h>
-      <nav
-      >
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-            <p>
-            <img 
-                style="border-radius: 50%; float: right; margin-left: 1em;"
-                src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" 
-                alt="Cammie Love">
-      
-            <h4>After my short stint in hospitality, I've decided to transition into web 
-            and mobile development.</h4></p>
-      
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cammie Love</title>
+    
+</head>
+<body>
 
-            <!-- Plain text input -->
-<div>
-  <em>Sample plain text entry</em>
-  <label for="name">Name</label>
-  <input id="name" name="name" type="text">
-</div>
-<!-- Datepicker -->
-<label for="date">Date</label>
-<input id="date" name="date" type="date">
+        <header>
+            <span class="logo">My WebSite</span>
+            <a id="toggleMenu">Menu<a></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
 
-<!-- Textarea -->
-<label for="description">Description</label>
-<textarea id="description" name="description"></textarea>
 
-<!-- Picklist-->
-<label for="pickOne">Choose an option</label>
-<select id="pickOne" name="pickone">
-  <option>Please Choose an Option</option>
-  <option value="option1">Option 1</option>
-  <option value="option2" selected>Option 2</option>
-  <option value="option3">Option 3</option>
-</select>
+ 
+    <li><a href="index.html">Home</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav><br>
+ <h1>Hello, I am Cammie Love</h1>
+ <p>Welcome to my web site.</p>
 
-<!-- Radio Options -->
-<fieldset>
-  <legend>Choose yes or No</legend>
+ <p>
+    <img 
+        style="border-radius: 50%; float: right; margin-left: 1em;"
+        src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" 
+        alt="Cammie Love">
 
-  <label for="r1">Yes</label>
-  <input id="r1" name="yn" value="y" type="radio">
 
-  <label for="r2">No</label>
-  <input id="r2
-  " name="yn" value="n" type="radio">
-</fieldset>
-
-<!-- Checkbox Options -->
-<fieldset>
-  <legend>Choose all that apply</legend>
-  <label for="c1">Option 1</label>
-  <input id="c1" name="all" value="0" type="checkbox">
-
-  <label for="c2">Option 2</label>
-  <input id="c2" name="all" value="1" type="checkbox">
-</fieldset>
-
-<!-- Form Buttons -->
-<input type="submit" name="submit" value="Submit">
-<input type="reset" name="reset" value="Reset">
-
-            
+    After working many years in aviation, I've decided to transition in to web 
+    and mobile development. Web and mobile development will open many doors for me and I look forward fot the many challenges that will come my way.
+</p> 
+   <h1>Hello World</h1>
+    <p>Welcome to my web site.</p>
+    <h2>HTML Elements</h2>
+    <p>
+    To paraphrase the lesson text [...] For example &lt;h1&gt;h1&lt;h2&gt;title&lt;/h1&gt;... Notice the use of character entities when wanting show the tags in HTML.
+    </p>
+    <h2>Character Entities</h2>
+    <p>Since the keyboard does not have a &copy; key we need a way to reference this so we say &amp;copy;. Additionally, greater than and less than are interpreted as HTML tags. These are examples of symbols that we may want to display but will not be able to with out a work around. This is where character entities come into play. </p>
+    <ul>
+        <li><a href="https://stackoverflow.com/questions/1016080/why-are-html-character-entities-necessary">A Stack Overflow thread on the topic.</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references">A Wikipedia artcile on the topic.</a></li>
+        <li><a href="https://dev.w3.org/html5/html-author/charref">The W3C reference.</a></li>
+    </ul>
+    <h2>Summary</h2>
+    <p>In summation...</p>
 
 
 
-      
-    </body>
+    <script>
+
+        var toggleMenu = document.getElementById('toggleMenu');
+        var nav = document.querySelector('nav');
+        toggleMenu.addEventListener(
+          'click',
+          function(){
+            if(nav.style.display=='block'){
+              nav.style.display='none';
+            }else{
+              nav.style.display='block';
+            }
+          }
+        );
+      </script>
+
+</body>
 </html>
