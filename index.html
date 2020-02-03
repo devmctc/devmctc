@@ -1,74 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cammie Love</title>
-    
-</head>
-<body>
 
+
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Cammie Love</title>
+       <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <body>
         <header>
-            <span class="logo">My WebSite</span>
-            <a id="toggleMenu">Menu<a></a>
+            <span class="logo">CV</span>
+            <a id="toggleMenu">Menu</a>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-
- 
-    <li><a href="index.html">Home</a></li>
-    <li><a href="resume.html">Resume</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav><br>
- <h1>Hello, I am Cammie Love</h1>
- <p>Welcome to my web site.</p>
-
- <p>
-    <img 
-        style="border-radius: 50%; float: right; margin-left: 1em;"
-        src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" 
-        alt="Cammie Love">
-
-
-    After working many years in aviation, I've decided to transition in to web 
-    and mobile development. Web and mobile development will open many doors for me and I look forward fot the many challenges that will come my way.
-</p> 
-   <h1>Hello World</h1>
-    <p>Welcome to my web site.</p>
-    <h2>HTML Elements</h2>
-    <p>
-    To paraphrase the lesson text [...] For example &lt;h1&gt;h1&lt;h2&gt;title&lt;/h1&gt;... Notice the use of character entities when wanting show the tags in HTML.
-    </p>
-    <h2>Character Entities</h2>
-    <p>Since the keyboard does not have a &copy; key we need a way to reference this so we say &amp;copy;. Additionally, greater than and less than are interpreted as HTML tags. These are examples of symbols that we may want to display but will not be able to with out a work around. This is where character entities come into play. </p>
-    <ul>
-        <li><a href="https://stackoverflow.com/questions/1016080/why-are-html-character-entities-necessary">A Stack Overflow thread on the topic.</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references">A Wikipedia artcile on the topic.</a></li>
-        <li><a href="https://dev.w3.org/html5/html-author/charref">The W3C reference.</a></li>
-    </ul>
-    <h2>Summary</h2>
-    <p>In summation...</p>
+        <main>
+            <h1>Hello, I am a Programmer</h1>
+            <p>
+                <img 
+                    class="avatar"
+                    src="IMG_4122.jpg" 
+                    alt="Cammie Love">
+        
+                After five decades in Hollywood I've decided to transition into web 
+                and mobile development.
+            </p>
 
 
 
-    <script>
+            <h1>Cammie Love</h1>
+            <p><em>Full stack Developer</em></p>
+            <p>I am an iOS and Web Developer. I currently live in Chicago and I enjoy a strong cup of joe.</p>
+            <hr size="4">
+            <h3>Education</h3>
+            <ul>
+                <li>Microtrain: Agile Full Stack Web and Hybrid Mobile Application Development</li>
+                <li>Microtrain: ScrumMaster CSM Certified</li>
+                <li>Chicago State University BA</li>
+            </ul>
+            <br>
+            <hr size="4">
+        <h3>Hobbies</h3>
+        <ol>
+            <li>Aviation</li>
+            <li>Fixed-Wing Aircraft</li>
+            <li>Language Aquisition</li>
+        </ol>
 
-        var toggleMenu = document.getElementById('toggleMenu');
-        var nav = document.querySelector('nav');
-        toggleMenu.addEventListener(
-          'click',
-          function(){
-            if(nav.style.display=='block'){
-              nav.style.display='none';
-            }else{
-              nav.style.display='block';
-            }
-          }
-        );
-      </script>
+        </main>
 
-</body>
+        <script>
+            var toggleMenu = document.getElementById('toggleMenu');
+            var nav = document.querySelector('nav');
+            toggleMenu.addEventListener(
+                'click',
+                function(){
+                if(nav.style.display=='block'){
+                    nav.style.display='none';
+                }else{
+                    nav.style.display='block';
+                }
+                }
+            );
+        </script>
+        
+    </body>
 </html>
